@@ -1,0 +1,28 @@
+{
+    "name": "@repo/configuration-vitest",
+    "private": true,
+    "type": "module",
+    "main": "./index.js",
+    "types": "./types.d.ts",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "peerDependencies": {
+        "@vitest/coverage-v8": "2.0.1",
+        "@vue/test-utils": "2.4.6",
+        "typescript": "5.5.4",
+        "vitest": "2.0.1"
+    },
+    "dependencies": {
+        "jsdom": "^24.0.0"
+    },
+    "devDependencies": {
+        "@repo/configuration-eslint": "workspace:*",
+        "@repo/configuration-typescript": "workspace:*",
+        "@vitest/coverage-v8": "2.0.1",
+        "@vue/test-utils": "2.4.6",
+        "eslint": "9.9.1",
+        "typescript": "5.5.4",
+        "vitest": "2.0.1"
+    }
+}

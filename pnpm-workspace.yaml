@@ -1,0 +1,6 @@
+packages:
+    - 'apps/*'
+    - 'configurations/*'
+    - 'packages/*'
+    - 'domains/*'
+    - 'tests/*'

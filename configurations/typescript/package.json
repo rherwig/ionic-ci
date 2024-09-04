@@ -1,0 +1,16 @@
+{
+    "name": "@repo/configuration-typescript",
+    "private": true,
+    "type": "module",
+    "exports": {
+        "./base": "./base.json",
+        "./ionic": "./ionic.json",
+        "./legacy": "./legacy.json"
+    },
+    "peerDependencies": {
+        "typescript": "5.5.4"
+    },
+    "devDependencies": {
+        "typescript": "5.5.4"
+    }
+}

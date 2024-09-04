@@ -1,0 +1,4 @@
+{
+    "extends": "@repo/configuration-typescript/ionic",
+    "include": ["**/*.js", "**/*.d.ts"]
+}

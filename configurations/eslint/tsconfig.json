@@ -1,0 +1,7 @@
+{
+    "extends": "@repo/configuration-typescript/ionic",
+    "compilerOptions": {
+        "allowJs": true
+    },
+    "include": ["**/*.ts", "**/*.js"]
+}

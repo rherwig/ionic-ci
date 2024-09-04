@@ -1,0 +1,26 @@
+{
+    "name": "@repo/source",
+    "private": true,
+    "version": "1.0.0",
+    "packageManager": "pnpm@9.9.0",
+    "engines": {
+        "node": ">=18.17.0"
+    },
+    "scripts": {
+        "build": "turbo build",
+        "dev": "turbo dev",
+        "lint": "turbo lint",
+        "postinstall": "manypkg check",
+        "start:android": "turbo start:android",
+        "start:ios": "turbo start:ios",
+        "test": "turbo test"
+    },
+    "dependencies": {
+        "@manypkg/cli": "0.21.4",
+        "prettier": "3.3.2",
+        "start-server-and-test": "2.0.5",
+        "tailwindcss": "3.4.4",
+        "turbo": "2.1.0",
+        "vitest": "2.0.1"
+    }
+}

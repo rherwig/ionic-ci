@@ -1,0 +1,25 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "tasks": {
+        "build": {
+            "dependsOn": ["^build"],
+            "outputs": ["dist/"]
+        },
+        "cap:copy:android": {},
+        "cap:copy:ios": {},
+        "cap:sync:android": {},
+        "cap:sync:ios": {},
+        "dev": { "persistent": true, "cache": false, "dependsOn": ["^build"] },
+        "lint": {},
+        "start:android": {
+            "cache": false,
+            "dependsOn": ["build", "cap:copy:android", "cap:sync:android"],
+            "passThroughEnv": ["CAPACITOR_ANDROID_STUDIO_PATH"]
+        },
+        "start:ios": {
+            "cache": false,
+            "dependsOn": ["build", "cap:copy:ios", "cap:sync:ios"]
+        },
+        "test": {}
+    }
+}

@@ -1,0 +1,12 @@
+
+{
+    "extends": "@repo/configuration-typescript/ionic",
+    "compilerOptions": {
+        "noEmit": false,
+        "composite": true,
+        "moduleResolution": "Node"
+    },
+    "include": [
+        "vite.config.ts"
+    ]
+}
