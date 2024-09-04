@@ -4,8 +4,7 @@
     "type": "module",
     "exports": {
         "./base": "./base.json",
-        "./ionic": "./ionic.json",
-        "./legacy": "./legacy.json"
+        "./ionic": "./ionic.json"
     },
     "peerDependencies": {
         "typescript": "5.5.4"
